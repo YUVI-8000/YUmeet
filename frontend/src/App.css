@@ -94,3 +94,29 @@
     height: auto;
     border-radius: 20px;
   }
+
+  @media(max-width:768px){
+    .landingPageContainer{
+      font-size: 0.8rem;
+    }
+    .landingMainContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .landingMainContainer h1{
+      font-size: 2.3rem;
+    }
+    .landingMainContainer p{
+      font-size: 1.5rem;
+      margin-top: 1.3rem;
+    }
+    .landingMainContainer>div:nth-child(1) div[role='button']{
+      font-size: 0.5rem;
+      padding: 0.5rem;
+    }
+    .landingMainContainer>div:nth-child(2) img{
+      height: 40vh;
+    }
+
+  }
