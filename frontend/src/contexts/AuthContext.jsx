@@ -37,11 +37,7 @@ export const AuthProvider = ({ children }) => {
         } catch (err) {
             throw err;
         }
-        let result = await handleRegister(name, username, password);
-console.log("Result from handleRegister:", result);
-
     }
-    
 
     const handleLogin = async (username, password) => {
         try {

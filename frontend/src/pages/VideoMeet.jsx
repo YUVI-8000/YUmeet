@@ -450,8 +450,8 @@ export default function VideoMeetComponent() {
 
             {askForUsername === true ?
 
-                <div>
-<div className={styles.lobby}>
+                <div className={styles.lobby}>
+
 
                     <h2>Enter into Lobby </h2>
                     <TextField id="outlined-basic" label="Username" value={username} onChange={e => setUsername(e.target.value)} variant="outlined" />
@@ -461,7 +461,7 @@ export default function VideoMeetComponent() {
                     <div>
                         <video ref={localVideoref} autoPlay muted></video>
                     </div>
-                    </div>
+
                 </div> :
 
 
