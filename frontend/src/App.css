@@ -97,7 +97,10 @@
 
   @media(max-width:768px){
     .landingPageContainer{
-      font-size: 0.8rem;
+      font-size: 0.7rem;
+    }
+    .landingPageContainer nav h2{
+      font-size: 1.5rem;
     }
     .landingMainContainer{
       display: flex;
@@ -109,14 +112,37 @@
     }
     .landingMainContainer p{
       font-size: 1.5rem;
-      margin-top: 1.3rem;
+      margin-top: 1rem;
     }
     .landingMainContainer>div:nth-child(1) div[role='button']{
-      font-size: 0.5rem;
-      padding: 0.5rem;
+      font-size: 0.1rem;
+      padding: 0.6rem;
     }
     .landingMainContainer>div:nth-child(2) img{
+      height: 35vh;
+    }
+    .meetContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .rightPanel img{
       height: 40vh;
+      width: 50vh;
+    }
+    .leftPanel h2{
+      font-size: 2.1rem;
+      margin-bottom: 1.8rem;
+    }
+    .input .MuiOutlinedInput-root {
+      border-radius: 20px; /* Adjust the radius as needed */
+    }
+    .button{
+      border-radius: 20px !important;
+    }
+    #logout-button{
+      margin-top: 0.3rem;
+      margin-left: 0.3rem;
     }
 
   }

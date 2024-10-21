@@ -39,7 +39,8 @@ function HomeComponent() {
                     </IconButton>
                     <p>History</p>
 
-                    <Button onClick={() => {
+                    <Button  id="logout-button"
+                    onClick={() => {
                         localStorage.removeItem("token")
                         navigate("/auth")
                     }}>
@@ -56,10 +57,10 @@ function HomeComponent() {
                     <div>
                         <h2>Providing Quality Video Call</h2>
 
-                        <div style={{ display: 'flex', gap: "10px" }}>
+                        <div style={{ display: 'flex', gap: "20px" }}>
 
-                            <TextField onChange={e => setMeetingCode(e.target.value)} id="outlined-basic" label="Meeting Code" variant="outlined" />
-                            <Button onClick={handleJoinVideoCall} variant='contained'>Join</Button>
+                            <TextField onChange={e => setMeetingCode(e.target.value)} id="outlined-basic" label="Meeting Code" variant="outlined" className='input' />
+                            <Button onClick={handleJoinVideoCall} variant='contained' className='button'>Join</Button>
 
                         </div>
                     </div>
