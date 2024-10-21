@@ -74,16 +74,25 @@
     gap: 10vw;
     justify-content: center;
   }
-  
-  
+  .input .MuiOutlinedInput-root {
+    border-radius: 20px; /* Adjust the radius as needed */
+  }
+  .button{
+    border-radius: 20px !important;
+  }
+  #logout-button{
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+  }
   
   .leftPanel {
     height: 100%;
     display: flex;
     align-items: center;
-  
   }
-  
+  .leftPanel h2{
+    margin-bottom: 2rem;
+  }
   .rightPanel {
     display: flex;
     align-items: center;
