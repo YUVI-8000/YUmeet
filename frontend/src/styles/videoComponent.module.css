@@ -34,7 +34,7 @@
 
 .conferenceView  video {
     width: 50vw;
-    height: auto;
+    height: 50vh;
     /* min-width: 30vw; */
     border-radius: 50px;
     margin-top: 3rem;
@@ -94,7 +94,8 @@
     }
     .conferenceView  video{
         width: 90vw;
+        height: 80vh;
         margin-left: 0.7rem;
-        margin-top: 170px;
+        margin-top: 10px;
     }
 }
